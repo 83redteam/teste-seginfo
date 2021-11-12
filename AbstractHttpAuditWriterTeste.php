@@ -19,7 +19,7 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
 
     public function __construct(bool $buffered = true)
     {
-        // Prevent memory leak on CLI
+       
         $this->buffered = $buffered && php_sapi_name() !== 'cli';
     }
 
