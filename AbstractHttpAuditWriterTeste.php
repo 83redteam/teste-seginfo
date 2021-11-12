@@ -55,9 +55,7 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
         return $path;
     }
 
-    /**
-     * @param string|null $subPath
-     */
+ 
     protected function getFullPath($subPath, \DateTimeInterface $datetime): string
     {
         // sanitize subpath
