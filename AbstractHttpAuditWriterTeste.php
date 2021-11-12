@@ -7,10 +7,7 @@ use \HttpAudit\NotCommittedMessageException;
 abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
 {
     
-    private $scheduledMessages = [];
-
-   
-    private $buffered;
+    private $scheduledMessages = []
 
    
     private $initialized = false;
