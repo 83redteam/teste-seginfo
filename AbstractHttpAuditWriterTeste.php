@@ -8,9 +8,7 @@ use \HttpAudit\NotCommittedMessageException;
 
 abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
 {
-    /**
-     * @var array<string, HttpAuditMessage>
-     */
+    
     private $scheduledMessages = [];
 
     /**
