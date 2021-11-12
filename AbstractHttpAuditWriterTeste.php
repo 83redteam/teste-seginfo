@@ -1,9 +1,6 @@
 
 <?php
 
-
-use \HttpAudit\NotCommittedMessageException;
-
 abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
 {
     
