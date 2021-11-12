@@ -14,9 +14,7 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
    
     private $buffered;
 
-    /**
-     * @var bool
-     */
+   
     private $initialized = false;
 
     /**
