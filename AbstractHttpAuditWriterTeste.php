@@ -11,9 +11,7 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
     
     private $scheduledMessages = [];
 
-    /**
-     * @var bool
-     */
+   
     private $buffered;
 
     /**
