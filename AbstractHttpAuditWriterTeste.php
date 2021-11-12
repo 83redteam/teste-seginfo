@@ -1,8 +1,6 @@
 
 <?php
 
-namespace \HttpAudit\Writer;
-
 use \HttpAudit\HttpAuditMessage;
 use \HttpAudit\NotCommittedMessageException;
 
