@@ -23,12 +23,7 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
         $this->buffered = $buffered && php_sapi_name() !== 'cli';
     }
 
-    /**
-     * @param string $path
-     * @param string $content
-     *
-     * @return bool
-     */
+    
     abstract protected function writeContent(string $path, string $content): bool;
 
     /**
