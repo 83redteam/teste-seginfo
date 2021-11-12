@@ -17,9 +17,6 @@ abstract class AbstractHttpAuditWriter implements HttpAuditWriterInterface
    
     private $initialized = false;
 
-    /**
-     * @param bool $buffered Buffer the messages, then flush them on shutting down
-     */
     public function __construct(bool $buffered = true)
     {
         // Prevent memory leak on CLI
